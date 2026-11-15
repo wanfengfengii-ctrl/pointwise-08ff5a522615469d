@@ -4,13 +4,12 @@
   "setup": [],
   "verify": [
     "python3",
-    "checks.py",
-    "normal"
+    "analysis.py",
+    "verify"
   ],
   "demo": [
     "python3",
-    "pipeline.py",
-    "data/incident.json",
-    "cut"
+    "analysis.py",
+    "demo"
   ]
 }
