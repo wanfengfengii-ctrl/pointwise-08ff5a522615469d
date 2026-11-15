@@ -1,0 +1,88 @@
+{
+  "observations": [
+    {
+      "id": "n0",
+      "time": 0,
+      "value": 1,
+      "variance": 1
+    },
+    {
+      "id": "n1",
+      "time": 1,
+      "value": 3,
+      "variance": 1
+    },
+    {
+      "id": "n2",
+      "time": 2,
+      "value": 5,
+      "variance": 1
+    },
+    {
+      "id": "n3",
+      "time": 3,
+      "value": 7,
+      "variance": 1
+    }
+  ],
+  "windows": [
+    {
+      "id": "v0",
+      "weights": {
+        "n0": 1
+      }
+    },
+    {
+      "id": "v1",
+      "weights": {
+        "n1": 1
+      }
+    },
+    {
+      "id": "v2",
+      "weights": {
+        "n2": 1
+      }
+    },
+    {
+      "id": "v3",
+      "weights": {
+        "n3": 1
+      }
+    }
+  ],
+  "plans": {
+    "all": [
+      [
+        "v0",
+        "v1",
+        "v2",
+        "v3"
+      ]
+    ],
+    "cut": [
+      [
+        "v0",
+        "v1"
+      ],
+      [
+        "v2",
+        "v3"
+      ]
+    ],
+    "single": [
+      [
+        "v0"
+      ],
+      [
+        "v1"
+      ],
+      [
+        "v2"
+      ],
+      [
+        "v3"
+      ]
+    ]
+  }
+}
